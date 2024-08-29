@@ -1,0 +1,6 @@
+python-dotenv
+dash
+plotly
+telethon
+mysql-connector
+pandas
