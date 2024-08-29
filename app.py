@@ -9,7 +9,7 @@ import pandas as pd
 # Specify dtype='float64' explicitly
 empty_series = pd.Series(dtype='float64')
 app = Dash(__name__)
-
+server = app.server
 Database.reconnect()
 
 Query_job_category = "SELECT Job_category, Count(Job_category) as count from Jobs Group by Job_category"
