@@ -4,3 +4,4 @@ plotly
 telethon
 mysql-connector
 pandas
+gunicorn
